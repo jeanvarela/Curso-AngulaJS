@@ -43,8 +43,11 @@
         angular.module("helloWorld");
         
 <a name="declararController"></a>
-   Para declarar um controller é necessário localizar o módulo e declarar uma função. 
+   O controller é declarado através da seguinte expressão: 
    	
-       angular.module("helloWorld",[]).controller("helloWorldCtrl",function ($scope){
-	   $scope.message = "Hello Worldccccccccccccc";
+       controller(nomeController,function ($scope){
        });
+       
+   O primeiro atributo é um objeto do tipo String que identifica o nome do controller;
+   O segundo atributo é um **function** que contém as funcionalidades do controller;
+    * A function recebe como parametro a variável *$scope* que representa o escopo; 

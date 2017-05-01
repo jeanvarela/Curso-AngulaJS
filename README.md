@@ -11,6 +11,7 @@
   5. [Declarar Controller](#declararController)
   6. [Utilizar Controller](#utilizarController)
   7. [Manipular Scope](#manipularScope)
+     7.1 [Inserir variável no escopo](#inserirVariavelNoEscopo)
   
 <a name="importar"></a>  
 ## Importar Biblioteca
@@ -85,3 +86,14 @@
 <a name="manipularScope"></a>
 ## Manipular o Scope
 
+<a name="inserirVariavelNoEscopo"></a>
+### Inserir variável no escopo
+   Para inserir uma mensagem no controller é utilizada a seguinte expressão:
+  
+   	$scope.message = "Hello World"; *
+	   
+   Essa declaração é inserida no corpo do controller:
+   
+   	angular.module("helloWorld",[]).controller("helloWorldCtrl",function ($scope){
+				$scope.message = "Hello World";
+	   });

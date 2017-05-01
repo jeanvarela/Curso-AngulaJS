@@ -7,6 +7,7 @@
   1. [Importar Biblioteca](#importar)
   2. [Declarar Módulo](#modulo)
   3. [Localizar Módulo](#localizarModulo)
+  4. [Declarar Controller](#declararController)
   
 <a name="importar"></a>  
 ## Importar Biblioteca
@@ -40,3 +41,10 @@
     Antes de usar o módulo é necessario localiza-lo. Para localizar o módulo é utilizado o seguinte comando:
            
         angular.module("helloWorld");
+        
+<a name="declararController"></a>
+   Para declarar um controller é necessário localizar o módulo e declarar uma função. 
+   	
+       angular.module("helloWorld",[]).controller("helloWorldCtrl",function ($scope){
+				$scope.message = "Hello Worldccccccccccccc";
+		 });

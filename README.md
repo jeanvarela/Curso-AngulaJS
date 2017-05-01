@@ -38,11 +38,13 @@
    **Desvantagem:** O módulo fica exposto no escopo.
      
 <a name="localizarModulo"></a>
+## Declarar o módulo
     Antes de usar o módulo é necessario localiza-lo. Para localizar o módulo é utilizado o seguinte comando:
            
         angular.module("helloWorld");
         
 <a name="declararController"></a>
+## Declarar o Controller
    O controller é declarado através da seguinte expressão: 
    	
        angular.module("helloWorld").controller(nomeController,function ($scope){

@@ -78,5 +78,4 @@
    A seguir é apresentada a utilização em um *div*:
    	
       <div ng-controller="helloWorldCtrl">
-				{{message}}
-		</div>
+      </div>

@@ -12,6 +12,7 @@
   6. [Utilizar Controller](#utilizarController)
   7. [Manipular Scope](#manipularScope)
      7.1 [Inserir variável no escopo](#inserirVariavelNoEscopo)
+     7.2 [Exibir informação do Escopo](#exibirInformcaoEscopo)
   
 <a name="importar"></a>  
 ## Importar Biblioteca
@@ -97,3 +98,16 @@
    	angular.module("helloWorld",[]).controller("helloWorldCtrl",function ($scope){
 	  $scope.message = "Hello World";
 	});
+	
+<a name="exibirInformcaoEscopo"></a>
+### Exibir Informação do Escopo
+   Para exibir uma intormação do escopo é utilizado a interpolação da expressão entre **{{** e **}}**. <br/>
+   A seguir é apresentada como é exibida a mensagem atribuida a variável *message* <br/>
+
+      <div ng-controller="helloWorldCtrl">
+	{{message}}
+      </div>
+      
+  Posteriormente será apresentada a diretiva **ng-bind** que também permite exibir mensagem do escopo.
+   
+   

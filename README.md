@@ -30,8 +30,8 @@
             
        2) var  app = angular.module("helloWorld",[]);     
    
-   A segunda forma de declaração atribui a referência do módulo a  variável **app**.
-   **Vantagem:** O módulo pode ser referenciado a partir da variável **app**;
+   A segunda forma de declaração atribui a referência do módulo a  variável **app**.<br/>
+   **Vantagem:** O módulo pode ser referenciado a partir da variável **app**;<br/>
    **Desvantagem:** O módulo fica exposto no escopo.
      
    

@@ -12,7 +12,7 @@
   Antes de iniciar o projeto é necessário fazer download da biblioteca do AngularJS. Disponivel em [AngularJS](https://angularjs.org/).
   Importar a biblioteca no arquivo **html**:  
 
-    $ npm install mysql -g
+    <script src="lib/js/angular.min.js"></script>
 
   
 

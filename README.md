@@ -6,6 +6,7 @@
 
   1. [Importar Biblioteca](#importar)
   2. [Declarar Módulo](#modulo)
+  3. [Localizar Módulo](#localizarModulo)
   
 <a name="importar"></a>  
 ## Importar Biblioteca
@@ -35,4 +36,7 @@
    **Vantagem:** O módulo pode ser referenciado a partir da variável **app**;<br/>
    **Desvantagem:** O módulo fica exposto no escopo.
      
-   
+<a name="localizarModulo"></a>
+    Antes de usar o módulo é necessario localiza-lo. Para localizar o módulo é utilizado o seguinte comando:
+           
+        angular.module("helloWorld");

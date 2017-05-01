@@ -95,5 +95,5 @@
    Essa declaração é inserida no corpo do controller:
    
    	angular.module("helloWorld",[]).controller("helloWorldCtrl",function ($scope){
-				$scope.message = "Hello World";
-	   });
+	  $scope.message = "Hello World";
+	});

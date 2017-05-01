@@ -9,6 +9,6 @@
   
 <a name="importar"></a>  
 ## Importar Biblioteca
-  Antes de iniciar o projeto é necessário fazer download da biblioteca do AngularJS. Disponivél em [AngularJS](https://angularjs.org/)    
+  Antes de iniciar o projeto é necessário fazer download da biblioteca do AngularJS. Disponivel em [AngularJS](https://angularjs.org/)    
 
 <a name="modulo"></a>

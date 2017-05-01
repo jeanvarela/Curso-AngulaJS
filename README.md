@@ -47,7 +47,7 @@
 <a name="utilizacaoModulo"></a>
 ## Utilização Módulo
    A utilização de um módulo é através do uso da diretiva ng-app.<br/>
-   Esse diretiva pode ser inserida em qualque elemento html. A utilização é que a mesma seja inserida na tag *html*<br/>
+   Esse diretiva pode ser inserida em qualque elemento html. É recomendadoe que essa  diretiva seja inserida na tag *html*<br/>
    A seguir é apresentada a utilização na tag *body*
    
       <html ng-app="helloWorld">

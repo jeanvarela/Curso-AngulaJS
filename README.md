@@ -90,7 +90,7 @@
 ### Inserir variável no escopo
    Para inserir uma mensagem no controller é utilizada a seguinte expressão:
   
-   	$scope.message = "Hello World"; *
+   	$scope.message = "Hello World";
 	   
    Essa declaração é inserida no corpo do controller:
    

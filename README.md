@@ -7,7 +7,8 @@
   1. [Importar Biblioteca](#importar)
   2. [Declarar Módulo](#modulo)
   3. [Localizar Módulo](#localizarModulo)
-  4. [Declarar Controller](#declararController)
+  4. [Utilizqar Módulo](#utilizacaoModulo)
+  5. [Declarar Controller](#declararController)
   
 <a name="importar"></a>  
 ## Importar Biblioteca
@@ -42,6 +43,21 @@
    Antes de usar o módulo é necessario localiza-lo. Para localizar o módulo é utilizado o seguinte comando:
            
         angular.module("helloWorld");
+        
+<a name="utilizacaoModulo"></a>
+## Utilização Módulo
+   A utilização de um módulo é através do uso da diretiva ng-app.<br/>
+   Esse diretiva pode ser inserida em qualque elemento html. A utilização é que a mesma seja inserida na tag *html*<br/>
+   A seguir é apresentada a utilização na tag *body*
+   
+      <html ng-app="helloWorld">
+         <head>
+         </head>
+         
+         <body>
+         </body>
+      </html>
+   
         
 <a name="declararController"></a>
 ## Declarar o Controller

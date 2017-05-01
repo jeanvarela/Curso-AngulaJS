@@ -9,6 +9,7 @@
   3. [Localizar Módulo](#localizarModulo)
   4. [Utilizqar Módulo](#utilizacaoModulo)
   5. [Declarar Controller](#declararController)
+  6. [Utilizar Controller](#utilizarController)
   
 <a name="importar"></a>  
 ## Importar Biblioteca
@@ -63,11 +64,19 @@
 ## Declarar o Controller
    O controller é declarado através da seguinte expressão: 
    	
-       angular.module("helloWorld").controller(nomeController,function ($scope){
+       angular.module("helloWorld").controller("helloWorldCtrl",function ($scope){
        });
        
    O primeiro atributo é um objeto do tipo String que identifica o nome do controller; <br/>
    O segundo atributo é um **function** que contém as funcionalidades do controller; <br/>
    - A function recebe como parametro a variável *$scope* que representa o escopo; 
    
-
+<a name="utilizarController"></a>
+## Utilizar o controller
+   A utilização de um controller é através do uso da diretiva ng-controller.<br/>
+   Esse diretiva pode ser inserida em qualque elemento html ou até mesmo em uma div. <br/>
+   A seguir é apresentada a utilização em um *div*:
+   	
+      <div ng-controller="helloWorldCtrl">
+				{{message}}
+		</div>

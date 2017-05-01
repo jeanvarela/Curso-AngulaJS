@@ -15,5 +15,23 @@
     <script src="lib/js/angular.min.js"></script>
 
   
-
 <a name="modulo"></a>
+## Declarar Módulo
+   Um módulo é declarado através da seguinte expressão:
+   
+       angular.module(nomeModulo,[]);
+       
+   O primeiro parametro é um objeto do tipo String que identifica o nome do módulo;
+   O segundo  parametro é um array  de String. Esse array é utilizado para a injeção de módulos.
+
+   É possível declarar um módulo de duas forma:
+   
+       1) angular.module("helloWorld",[]);
+            
+       2) var  app = angular.module("helloWorld",[]);     
+   
+   A segunda forma de declaração atribui a referência do módulo a  variável **app**.
+   **Vantagem:** O módulo pode ser referenciado a partir da variável **app**;
+   **Desvantagem:** O módulo fica exposto no escopo.
+     
+   

@@ -7,9 +7,10 @@
   1. [Importar Biblioteca](#importar)
   2. [Declarar Módulo](#modulo)
   3. [Localizar Módulo](#localizarModulo)
-  4. [Utilizqar Módulo](#utilizacaoModulo)
+  4. [Utilizar Módulo](#utilizacaoModulo)
   5. [Declarar Controller](#declararController)
   6. [Utilizar Controller](#utilizarController)
+  7. [Manipular Scope](#manipularScope)
   
 <a name="importar"></a>  
 ## Importar Biblioteca
@@ -48,7 +49,7 @@
 <a name="utilizacaoModulo"></a>
 ## Utilização Módulo
    A utilização de um módulo é através do uso da diretiva ng-app.<br/>
-   Esse diretiva pode ser inserida em qualque elemento html. É recomendadoe que essa  diretiva seja inserida na tag *html*<br/>
+   Esse diretiva pode ser inserida em qualque elemento html. É recomendado que essa  diretiva seja inserida na tag *html*<br/>
    A seguir é apresentada a utilização na tag *body*
    
       <html ng-app="helloWorld">
@@ -75,7 +76,12 @@
 ## Utilizar o controller
    A utilização de um controller é através do uso da diretiva ng-controller.<br/>
    Esse diretiva pode ser inserida em qualque elemento html ou até mesmo em uma div. <br/>
+   A utilização *ng-controller* indica que a view e o controller  compartilham o escopo. A view é o local aonde essa diretiva foi colocada.
    A seguir é apresentada a utilização em um *div*:
    	
       <div ng-controller="helloWorldCtrl">
       </div>
+
+<a name="manipularScope"></a>
+## Manipular o Scope
+

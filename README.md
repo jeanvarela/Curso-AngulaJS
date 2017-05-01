@@ -39,7 +39,7 @@
      
 <a name="localizarModulo"></a>
 ## Declarar o módulo
-    Antes de usar o módulo é necessario localiza-lo. Para localizar o módulo é utilizado o seguinte comando:
+   Antes de usar o módulo é necessario localiza-lo. Para localizar o módulo é utilizado o seguinte comando:
            
         angular.module("helloWorld");
         

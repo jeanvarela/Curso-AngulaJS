@@ -4,15 +4,15 @@
    
 ## Conteúdo
 
-  1. [Importar Biblioteca](#importar)
-  2. [Declarar Módulo](#modulo)
-  3. [Localizar Módulo](#localizarModulo)
-  4. [Utilizar Módulo](#utilizacaoModulo)
-  5. [Declarar Controller](#declararController)
-  6. [Utilizar Controller](#utilizarController)
-  7. [Manipular Scope](#manipularScope)
-     7.1 [Inserir variável no escopo](#inserirVariavelNoEscopo)
-     7.2 [Exibir informação do Escopo](#exibirInformcaoEscopo)
+  - [Importar Biblioteca](#importar)
+  - [Declarar Módulo](#modulo)
+  - [Localizar Módulo](#localizarModulo)
+  - [Utilizar Módulo](#utilizacaoModulo)
+  - [Declarar Controller](#declararController)
+  - [Utilizar Controller](#utilizarController)
+  - [Manipular Scope](#manipularScope)
+     - [Inserir variável no escopo](#inserirVariavelNoEscopo)
+     - [Exibir informação do Escopo](#exibirInformcaoEscopo)
   
 <a name="importar"></a>  
 ## Importar Biblioteca

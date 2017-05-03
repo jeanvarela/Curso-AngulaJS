@@ -114,7 +114,23 @@
    
 <a name="diretivas"></a>
 ### Diretivas
+   Um diretiva é uma extensão das tags do HTML. <br/>
+   Com a criação de diretivas s]ao obtidos os seguinte beneficios:
+* Definir novos comportamentos;
+* Criar componentes reutilizáveis;
 
+   
+   Uma diretiva é uma extensão do vocabulário HTML que nos permite criar
+Novos comportamentos. Essa tecnologia permite que os desenvolvedores criem componentes reutilizáveis
+Que podem ser usados ​​dentro de toda a aplicação e até mesmo fornecer seus próprios
+Componentes personalizados.
+
+A diretiva pode ser aplicada como um atributo, elemento, classe e até mesmo como um comentário,
+Usando a sintaxe camelCase. No entanto, como o HTML não diferencia maiúsculas de minúsculas, podemos usar
+Uma forma minúscula.
+Para a diretiva ngModel, podemos usar ng-model, ng: model, ng_model,
+Data-ng-model e x-ng-model na marcação HTML.
+   
 <a name="ngapp"></a>
 #### ng-app
 

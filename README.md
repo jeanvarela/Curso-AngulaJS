@@ -16,6 +16,7 @@
   - [Diretivas](#diretivas)
      - [ng-app](#ngapp)
      - [ng-controller](#ngcontroller)
+     - [ng-bind](#ngbind)
   
 <a name="importar"></a>  
 ## Importar Biblioteca
@@ -131,5 +132,11 @@
    Essa diretiva estabelece o vinvulo entre a view e o controller.
    <div ng-controller="helloWorldCtrl">
    </div>
-
-
+    
+<a name="ngbind"></a>
+#### ng-bind 
+   Essa diretiva subtitui a expressão na view pelo valor contida no controller.
+   No controller  é atribuida um valor a variável **message**:
+           angular.module("helloWorld",[]).controller("controlador",function ($scope){
+		$scope.message = "Hello World";
+	   });

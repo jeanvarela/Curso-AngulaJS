@@ -1,4 +1,4 @@
-# Curso AngulaJS
+# Curso AngularJS
 
    Esse repositório contém os códigos gerados a partir do estudo de AngularJS
    
@@ -136,7 +136,7 @@
     
 <a name="ngbind"></a>
 #### ng-bind 
-   Essa diretiva faz a ligação da expressão na view com seu valor no escopo.
+   Essa diretiva faz a ligação da expressão na view com seu valor no escopo. Essa diretiva pega o valor no scope e envia para a view.
    No controller  é atribuida um valor a variável **message**:
    
       angular.module("helloWorld",[]).controller("controlador",function ($scope){
@@ -185,21 +185,4 @@
 	</table>
 </body>
  ```
- 
-```go
-type List interface {
-    Get(index int) (interface{}, bool)
-	Remove(index int)
-	Add(values ...interface{})
-	Contains(values ...interface{}) bool
-	Sort(comparator utils.Comparator)
-    Swap(index1, index2 int)
-   	Insert(index int, values ...interface{})
 
-	containers.Container
-	// Empty() bool
-	// Size() int
-	// Clear()
-	// Values() []interface{}
-}
-```

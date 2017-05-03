@@ -13,6 +13,8 @@
   - [Manipular Scope](#manipularScope)
      - [Inserir variável no escopo](#inserirVariavelNoEscopo)
      - [Exibir informação do Escopo](#exibirInformcaoEscopo)
+  - [Diretivas](#diretivas)
+     - [ng-app](#ngapp)
   
 <a name="importar"></a>  
 ## Importar Biblioteca
@@ -110,4 +112,11 @@
       
   Posteriormente será apresentada a diretiva **ng-bind** que também permite exibir mensagem do escopo.
    
-   
+<a name="diretivas"></a>
+### Diretivas
+
+<a name="ngapp"></a>
+#### ng-app
+
+
+

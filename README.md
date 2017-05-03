@@ -147,4 +147,5 @@
      <div ng-controller="controlador">
  	    <h4 ng-bind="message"/>
      </div>
-	    
+     
+   É prefirivel utilizar ng-bind ao invés de interpolação de expressão, pois com o uso da interpolação há possibilidade da expressão se exibida na tala caso a renderização demore.

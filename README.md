@@ -171,7 +171,8 @@
   ```
   
   
- ```<body ng-controller="controlador">
+ ```go
+   <body ng-controller="controlador">
 	<table>
 		<tr>
 			<th>Nome</th>

@@ -17,6 +17,7 @@
      - [ng-app](#ngapp)
      - [ng-controller](#ngcontroller)
      - [ng-bind](#ngbind)
+     - [ng-repeat](#ngrepeat)
   
 <a name="importar"></a>  
 ## Importar Biblioteca
@@ -149,3 +150,10 @@
      </div>
      
    É prefirivel utilizar ng-bind ao invés de interpolação de expressão, pois com o uso da interpolação há possibilidade da expressão se exibida na tala caso a renderização demore.
+   
+   
+<a name="ngrepeat"></a>
+#### ng-repeat
+  Permite iterar sobre coleções
+  
+      ng-repeat="elemento in listaElementos"

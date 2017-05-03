@@ -159,7 +159,7 @@
       ng-repeat="elemento in listaElementos"
       
   A seguir é apresentado a utilização do ng-repeat em um tabela:
-  
+  ```
   angular.module("helloWorld",[]);
   angular.module("helloWorld",[]).controller("controlador",function ($scope){
 	$scope.contatos = [
@@ -168,6 +168,8 @@
 				{nome: "Funcionario 3", telefone: "21 - 9999999"}
 			];
   });
+  ```
+  
   
  ```<body ng-controller="controlador">
 	<table>

@@ -138,13 +138,13 @@
    Essa diretiva faz a ligação da expressão na view com seu valor no escopo.
    No controller  é atribuida um valor a variável **message**:
    
-      angular.module("helloWorld",[]).controller("controlador",function ($scope){
+   angular.module("helloWorld",[]).controller("controlador",function ($scope){
 	$scope.message = "Hello World";
-      });
+   });
 
-    Na view o valor de **message** é exibido em uma tag *H4*:
+   Na view o valor de **message** é exibido em uma tag *H4*:
     
-     <div ng-controller="controlador">
+   <div ng-controller="controlador">
  	<h4 ng-bind="message"/>
-     </div>
+   </div>
 	    

@@ -107,7 +107,7 @@
    A seguir é apresentada como é exibida a mensagem atribuida a variável *message* <br/>
 
       <div ng-controller="helloWorldCtrl">
-	{{message}}
+	   {{message}}
       </div>
       
   Posteriormente será apresentada a diretiva **ng-bind** que também permite exibir mensagem do escopo.
@@ -119,18 +119,6 @@
 * Definir novos comportamentos;
 * Criar componentes reutilizáveis;
 
-   
-   Uma diretiva é uma extensão do vocabulário HTML que nos permite criar
-Novos comportamentos. Essa tecnologia permite que os desenvolvedores criem componentes reutilizáveis
-Que podem ser usados ​​dentro de toda a aplicação e até mesmo fornecer seus próprios
-Componentes personalizados.
-
-A diretiva pode ser aplicada como um atributo, elemento, classe e até mesmo como um comentário,
-Usando a sintaxe camelCase. No entanto, como o HTML não diferencia maiúsculas de minúsculas, podemos usar
-Uma forma minúscula.
-Para a diretiva ngModel, podemos usar ng-model, ng: model, ng_model,
-Data-ng-model e x-ng-model na marcação HTML.
-   
 <a name="ngapp"></a>
 #### ng-app
 

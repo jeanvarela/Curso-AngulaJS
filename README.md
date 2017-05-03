@@ -172,7 +172,7 @@
   
   
  ```go
-   <body ng-controller="controlador">
+ <body ng-controller="controlador">
 	<table>
 		<tr>
 			<th>Nome</th>
@@ -183,7 +183,7 @@
 			<th>{{contato.telefone}}</th>
 		</tr>
 	</table>
-    </body>
+</body>
  ```
  
 ```go

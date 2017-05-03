@@ -124,27 +124,27 @@
 <a name="ngapp"></a>
 #### ng-app
    Essa diretiva define as fronteira da aplicação. 
-   <html ng-app="helloWorld">
-   </html>
+     <html ng-app="helloWorld">
+     </html>
  
 <a name="ngcontroller"></a>
 #### ng-controller 
    Essa diretiva estabelece o vinvulo entre a view e o controller.
-   <div ng-controller="helloWorldCtrl">
-   </div>
+      <div ng-controller="helloWorldCtrl">
+      </div>
     
 <a name="ngbind"></a>
 #### ng-bind 
    Essa diretiva faz a ligação da expressão na view com seu valor no escopo.
    No controller  é atribuida um valor a variável **message**:
    
-   angular.module("helloWorld",[]).controller("controlador",function ($scope){
+      angular.module("helloWorld",[]).controller("controlador",function ($scope){
 	$scope.message = "Hello World";
-   });
+      });
 
    Na view o valor de **message** é exibido em uma tag *H4*:
     
-   <div ng-controller="controlador">
+     <div ng-controller="controlador">
  	<h4 ng-bind="message"/>
-   </div>
+     </div>
 	    

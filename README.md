@@ -137,6 +137,14 @@
 #### ng-bind 
    Essa diretiva subtitui a expressão na view pelo valor contida no controller.
    No controller  é atribuida um valor a variável **message**:
+   
            angular.module("helloWorld",[]).controller("controlador",function ($scope){
 		$scope.message = "Hello World";
 	   });
+
+    Na view o valor de **message** é exibido em uma tag *H4*:
+    
+	    <div ng-controller="controlador">
+		<h4 ng-bind="message"/>
+	    </div>
+	    

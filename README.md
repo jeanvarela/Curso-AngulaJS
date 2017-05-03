@@ -157,3 +157,27 @@
   Permite iterar sobre coleções
   
       ng-repeat="elemento in listaElementos"
+      
+  A seguir é apresentado a utilização do ng-repeat em um tabela:
+  
+  angular.module("helloWorld",[]);
+  angular.module("helloWorld",[]).controller("controlador",function ($scope){
+	$scope.contatos = [
+				{nome: "Funcionario 1", telefone: "81 - 9999999"},
+				{nome: "Funcionario 2", telefone: "31 - 9999999"},
+				{nome: "Funcionario 3", telefone: "21 - 9999999"}
+			];
+  });
+  
+ <body ng-controller="controlador">
+	<table>
+		<tr>
+			<th>Nome</th>
+			<th>Telefone</th>
+		</tr>
+		<tr ng-repeat="contato in contatos">
+			<th>{{contato.nome}}</th>
+			<th>{{contato.telefone}}</th>
+		</tr>
+	</table>
+ </body>

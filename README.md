@@ -121,6 +121,9 @@
 
 <a name="ngapp"></a>
 #### ng-app
-
+   Essa difetiva define as fronteira da aplicação. 
+   <html ng-app="helloWorld">
+   </html>
+   
 
 

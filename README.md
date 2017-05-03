@@ -15,6 +15,7 @@
      - [Exibir informação do Escopo](#exibirInformcaoEscopo)
   - [Diretivas](#diretivas)
      - [ng-app](#ngapp)
+     - [ng-controller](#ngcontroller)
   
 <a name="importar"></a>  
 ## Importar Biblioteca
@@ -121,9 +122,14 @@
 
 <a name="ngapp"></a>
 #### ng-app
-   Essa difetiva define as fronteira da aplicação. 
+   Essa diretiva define as fronteira da aplicação. 
    <html ng-app="helloWorld">
    </html>
-   
+ 
+<a name="ngcontroller"></a>
+#### ng-controller 
+   Essa diretiva estabelece o vinvulo entre a view e o controller.
+   <div ng-controller="helloWorldCtrl">
+   </div>
 
 

@@ -18,7 +18,8 @@
      - [ng-controller](#ngcontroller)
      - [ng-bind](#ngbind)
      - [ng-repeat](#ngrepeat)
-     - [ng-model](#ngmodel)
+     - [ng-ngmodel](#ngmodel)
+     - [ng-ngclick](#ngclick)
   
 <a name="importar"></a>  
 ## Importar Biblioteca
@@ -190,4 +191,8 @@
 <a name="ngmodel"></a>
 #### ng-model
    Essa diretiva, assim como **ng-bind** realiza a ligação entre a view e o escopo, porém o **ng-model** insere o valor no escopo.
-   
+  
+
+<a name="ngclick"></a>
+#### ng-click
+   Essa diretiva atribui um comportamento ao evento de click. 
